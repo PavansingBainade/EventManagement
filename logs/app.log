@@ -1,0 +1,117 @@
+2025-08-16 00:36:21.175 [main] INFO  BaseClass.libraryClass - Configuration file loaded successfully.
+2025-08-16 00:36:21.182 [main] INFO  BaseClass.libraryClass - Selected browser from config: chrome
+2025-08-16 00:36:24.068 [main] INFO  BaseClass.libraryClass - Browser initialized and maximized with implicit wait: 30
+2025-08-16 00:36:24.143 [main] INFO  utils.ConfigReader - Configuration properties loaded successfully from: src/test/resources/config/config.properties
+2025-08-16 00:36:24.150 [main] INFO  utils.ConfigReader - Configuration properties loaded successfully from: src/test/resources/config/config.properties
+2025-08-16 00:36:24.151 [main] INFO  stepDefinitions.FormSteps - FormSteps initialized with shared WebDriver instance.
+2025-08-16 00:36:24.151 [main] INFO  stepDefinitions.FormSteps - Navigating to the homepage.
+2025-08-16 00:36:24.151 [main] INFO  pages.BookingPage - Opening URL: http://webapps.tekstac.com/SeleniumApp1/EventManagement/index.html
+2025-08-16 00:36:27.103 [main] INFO  stepDefinitions.FormSteps - Entering valid data for Booking form.
+2025-08-16 00:36:27.128 [main] INFO  utils.ExcelReader - Reading data from Excel file: src/test/resources/testData/EventManagementTestData.xlsx, Sheet: BookingData
+2025-08-16 00:36:27.690 [main] INFO  utils.ExcelReader - Successfully read 4 row(s) of data from sheet: BookingData
+2025-08-16 00:36:27.691 [main] INFO  pages.BookingPage - Filling form with data: {Email=john.doe@test.com, Address=123 Main St, EventType=Wedding, FirstName=John, GuestCount=100, City=Chennai, Date=2025-12-31, EventDetails=Wedding reception for John and Jane., Phone=1234567890, EventTime=18:00, LastName=Doe, Catering=Yes, Pincode=600001}
+2025-08-16 00:36:28.545 [main] INFO  stepDefinitions.FormSteps - Clicking the 'Book Now' button.
+2025-08-16 00:36:28.545 [main] INFO  pages.BookingPage - Clicking 'Book Now' button with upward scroll adjustment to expose form content.
+2025-08-16 00:36:28.558 [main] INFO  stepDefinitions.FormSteps - Verifying success message: 'Your Booking has been Confirmed !'
+2025-08-16 00:36:28.558 [main] INFO  pages.BookingPage - Trying to fetch confirmation message...
+2025-08-16 00:36:28.620 [main] INFO  pages.BookingPage - Waiting for message: ''
+2025-08-16 00:36:29.143 [main] INFO  pages.BookingPage - Waiting for message: 'Your Booking has been Confirmed !'
+2025-08-16 00:36:29.157 [main] INFO  pages.BookingPage - Final confirmation message: 'Your Booking has been Confirmed !'
+2025-08-16 00:36:29.157 [main] INFO  stepDefinitions.FormSteps - Success message verified successfully.
+2025-08-16 00:36:29.742 [main] INFO  BaseClass.libraryClass - Browser closed successfully.
+2025-08-16 00:36:29.764 [main] INFO  BaseClass.libraryClass - Configuration file loaded successfully.
+2025-08-16 00:36:29.764 [main] INFO  BaseClass.libraryClass - Selected browser from config: chrome
+2025-08-16 00:36:30.594 [main] INFO  BaseClass.libraryClass - Browser initialized and maximized with implicit wait: 30
+2025-08-16 00:36:30.595 [main] INFO  utils.ConfigReader - Configuration properties loaded successfully from: src/test/resources/config/config.properties
+2025-08-16 00:36:30.598 [main] INFO  utils.ConfigReader - Configuration properties loaded successfully from: src/test/resources/config/config.properties
+2025-08-16 00:36:30.599 [main] INFO  stepDefinitions.FormSteps - FormSteps initialized with shared WebDriver instance.
+2025-08-16 00:36:30.599 [main] INFO  stepDefinitions.FormSteps - Navigating to the homepage.
+2025-08-16 00:36:30.599 [main] INFO  pages.BookingPage - Opening URL: http://webapps.tekstac.com/SeleniumApp1/EventManagement/index.html
+2025-08-16 00:36:33.444 [main] WARN  stepDefinitions.FormSteps - Entering data with invalid email.
+2025-08-16 00:36:33.445 [main] INFO  utils.ExcelReader - Reading data from Excel file: src/test/resources/testData/EventManagementTestData.xlsx, Sheet: BookingData
+2025-08-16 00:36:33.493 [main] INFO  utils.ExcelReader - Successfully read 4 row(s) of data from sheet: BookingData
+2025-08-16 00:36:33.493 [main] INFO  pages.BookingPage - Filling form with data: {Email=invalid-email, Address=789 Pine Rd, EventType=Corporate, FirstName=Jane, GuestCount=200, City=Chennai, Date=2025-10-15, EventDetails=Annual corporate meeting, Phone=9876543210, EventTime=19:00, LastName=Smith, Catering=Yes, Pincode=600003}
+2025-08-16 00:36:34.290 [main] INFO  pages.BookingPage - Clicking 'Book Now' button with upward scroll adjustment to expose form content.
+2025-08-16 00:36:34.301 [main] INFO  pages.BookingPage - Trying to fetch confirmation message...
+2025-08-16 00:36:34.353 [main] INFO  pages.BookingPage - Waiting for message: ''
+2025-08-16 00:36:34.873 [main] INFO  pages.BookingPage - Waiting for message: 'Your Booking has been Confirmed !'
+2025-08-16 00:36:34.885 [main] INFO  pages.BookingPage - Final confirmation message: 'Your Booking has been Confirmed !'
+2025-08-16 00:36:34.885 [main] ERROR stepDefinitions.FormSteps - Form submitted successfully with invalid email. This should not happen.
+2025-08-16 00:36:35.270 [main] INFO  BaseClass.libraryClass - Browser closed successfully.
+2025-08-16 00:36:35.280 [main] INFO  BaseClass.libraryClass - Configuration file loaded successfully.
+2025-08-16 00:36:35.280 [main] INFO  BaseClass.libraryClass - Selected browser from config: chrome
+2025-08-16 00:36:36.020 [main] INFO  BaseClass.libraryClass - Browser initialized and maximized with implicit wait: 30
+2025-08-16 00:36:36.040 [main] INFO  utils.ConfigReader - Configuration properties loaded successfully from: src/test/resources/config/config.properties
+2025-08-16 00:36:36.042 [main] INFO  utils.ConfigReader - Configuration properties loaded successfully from: src/test/resources/config/config.properties
+2025-08-16 00:36:36.043 [main] INFO  stepDefinitions.FormSteps - FormSteps initialized with shared WebDriver instance.
+2025-08-16 00:36:36.044 [main] INFO  stepDefinitions.FormSteps - Navigating to the homepage.
+2025-08-16 00:36:36.044 [main] INFO  pages.BookingPage - Opening URL: http://webapps.tekstac.com/SeleniumApp1/EventManagement/index.html
+2025-08-16 00:36:39.477 [main] INFO  stepDefinitions.FormSteps - Entering empty data for Booking form.
+2025-08-16 00:36:39.477 [main] INFO  utils.ExcelReader - Reading data from Excel file: src/test/resources/testData/EventManagementTestData.xlsx, Sheet: BookingData
+2025-08-16 00:36:39.511 [main] INFO  utils.ExcelReader - Successfully read 4 row(s) of data from sheet: BookingData
+2025-08-16 00:36:39.511 [main] INFO  pages.BookingPage - Filling form with data: {Email=, Address=, EventType=, FirstName=, GuestCount=, City=, Date=, EventDetails=, Phone=, EventTime=, LastName=, Catering=, Pincode=}
+2025-08-16 00:36:39.922 [main] INFO  stepDefinitions.FormSteps - Clicking the 'Book Now' button.
+2025-08-16 00:36:39.922 [main] INFO  pages.BookingPage - Clicking 'Book Now' button with upward scroll adjustment to expose form content.
+2025-08-16 00:36:39.934 [main] INFO  stepDefinitions.FormSteps - Verifying required field validation messages using custom error divs.
+2025-08-16 00:36:39.934 [main] INFO  pages.BookingPage - Checking required fields for error messages
+2025-08-16 00:36:40.142 [main] INFO  pages.BookingPage - Invalid fields: []
+2025-08-16 00:36:40.143 [main] DEBUG stepDefinitions.FormSteps - Invalid fields found: []
+2025-08-16 00:36:40.143 [main] INFO  stepDefinitions.FormSteps - Validation successfully detected on fields: []
+2025-08-16 00:36:40.423 [main] INFO  BaseClass.libraryClass - Browser closed successfully.
+2025-08-16 00:36:40.434 [main] INFO  BaseClass.libraryClass - Configuration file loaded successfully.
+2025-08-16 00:36:40.434 [main] INFO  BaseClass.libraryClass - Selected browser from config: chrome
+2025-08-16 00:36:41.137 [main] INFO  BaseClass.libraryClass - Browser initialized and maximized with implicit wait: 30
+2025-08-16 00:36:41.140 [main] INFO  utils.ConfigReader - Configuration properties loaded successfully from: src/test/resources/config/config.properties
+2025-08-16 00:36:41.141 [main] INFO  utils.ConfigReader - Configuration properties loaded successfully from: src/test/resources/config/config.properties
+2025-08-16 00:36:41.141 [main] INFO  stepDefinitions.FormSteps - FormSteps initialized with shared WebDriver instance.
+2025-08-16 00:36:41.142 [main] INFO  stepDefinitions.FormSteps - Navigating to the homepage.
+2025-08-16 00:36:41.142 [main] INFO  pages.BookingPage - Opening URL: http://webapps.tekstac.com/SeleniumApp1/EventManagement/index.html
+2025-08-16 00:36:44.120 [main] WARN  stepDefinitions.FormSteps - Entering data with invalid phone number.
+2025-08-16 00:36:44.120 [main] INFO  utils.ExcelReader - Reading data from Excel file: src/test/resources/testData/EventManagementTestData.xlsx, Sheet: BookingData
+2025-08-16 00:36:44.162 [main] INFO  utils.ExcelReader - Successfully read 4 row(s) of data from sheet: BookingData
+2025-08-16 00:36:44.163 [main] INFO  pages.BookingPage - Filling form with data: {Email=test@gmail.com, Address=789 Pine Rd, EventType=Corporate, FirstName=jay, GuestCount=100, City=Coimbatore, Date=2025-10-15, EventDetails=Graduation, Phone=985/*][0912, EventTime=19:00, LastName=ray, Catering=Yes, Pincode=600004}
+2025-08-16 00:36:44.903 [main] INFO  pages.BookingPage - Clicking 'Book Now' button with upward scroll adjustment to expose form content.
+2025-08-16 00:36:44.908 [main] INFO  pages.BookingPage - Trying to fetch confirmation message...
+2025-08-16 00:36:44.953 [main] INFO  pages.BookingPage - Waiting for message: ''
+2025-08-16 00:36:45.478 [main] INFO  pages.BookingPage - Waiting for message: 'Your Booking has been Confirmed !'
+2025-08-16 00:36:45.489 [main] INFO  pages.BookingPage - Final confirmation message: 'Your Booking has been Confirmed !'
+2025-08-16 00:36:45.490 [main] ERROR stepDefinitions.FormSteps - Form submitted successfully with invalid phone number. This should not happen.
+2025-08-16 00:36:45.792 [main] INFO  BaseClass.libraryClass - Browser closed successfully.
+2025-08-16 00:36:45.802 [main] INFO  BaseClass.libraryClass - Configuration file loaded successfully.
+2025-08-16 00:36:45.803 [main] INFO  BaseClass.libraryClass - Selected browser from config: chrome
+2025-08-16 00:36:46.492 [main] INFO  BaseClass.libraryClass - Browser initialized and maximized with implicit wait: 30
+2025-08-16 00:36:46.495 [main] INFO  utils.ConfigReader - Configuration properties loaded successfully from: src/test/resources/config/config.properties
+2025-08-16 00:36:46.496 [main] INFO  utils.ConfigReader - Configuration properties loaded successfully from: src/test/resources/config/config.properties
+2025-08-16 00:36:46.496 [main] INFO  stepDefinitions.FormSteps - FormSteps initialized with shared WebDriver instance.
+2025-08-16 00:36:46.496 [main] INFO  stepDefinitions.FormSteps - Navigating to the homepage.
+2025-08-16 00:36:46.496 [main] INFO  pages.BookingPage - Opening URL: http://webapps.tekstac.com/SeleniumApp1/EventManagement/index.html
+2025-08-16 00:36:49.586 [main] INFO  stepDefinitions.FormSteps - Entering valid data for Contact Us form.
+2025-08-16 00:36:49.586 [main] INFO  utils.ExcelReader - Reading data from Excel file: src/test/resources/testData/EventManagementTestData.xlsx, Sheet: ContactUsData
+2025-08-16 00:36:49.628 [main] INFO  utils.ExcelReader - Successfully read 2 row(s) of data from sheet: ContactUsData
+2025-08-16 00:36:49.628 [main] INFO  pages.ContactUsPage - Filling Contact Us form with data: {Email=peter.j@domain.com, Message=This is a test message., Subject=test, Name=Peter Jones}
+2025-08-16 00:36:50.103 [main] INFO  stepDefinitions.FormSteps - Clicking the 'Send Message Now' button.
+2025-08-16 00:36:50.103 [main] INFO  pages.ContactUsPage - Clicking 'Send Message Now' button using JavaScript.
+2025-08-16 00:36:50.111 [main] INFO  stepDefinitions.FormSteps - Verifying Contact Us success message: 'Your message has been sent !'
+2025-08-16 00:36:50.112 [main] INFO  pages.ContactUsPage - Waiting for success message...
+2025-08-16 00:36:53.266 [main] INFO  pages.ContactUsPage - Success message: Your message has been sent !
+2025-08-16 00:36:53.662 [main] INFO  BaseClass.libraryClass - Browser closed successfully.
+2025-08-16 00:36:53.669 [main] INFO  BaseClass.libraryClass - Configuration file loaded successfully.
+2025-08-16 00:36:53.669 [main] INFO  BaseClass.libraryClass - Selected browser from config: chrome
+2025-08-16 00:36:54.393 [main] INFO  BaseClass.libraryClass - Browser initialized and maximized with implicit wait: 30
+2025-08-16 00:36:54.396 [main] INFO  utils.ConfigReader - Configuration properties loaded successfully from: src/test/resources/config/config.properties
+2025-08-16 00:36:54.397 [main] INFO  utils.ConfigReader - Configuration properties loaded successfully from: src/test/resources/config/config.properties
+2025-08-16 00:36:54.398 [main] INFO  stepDefinitions.FormSteps - FormSteps initialized with shared WebDriver instance.
+2025-08-16 00:36:54.398 [main] INFO  stepDefinitions.FormSteps - Navigating to the homepage.
+2025-08-16 00:36:54.398 [main] INFO  pages.BookingPage - Opening URL: http://webapps.tekstac.com/SeleniumApp1/EventManagement/index.html
+2025-08-16 00:36:57.352 [main] INFO  stepDefinitions.FormSteps - Entering empty data for Contact Us form.
+2025-08-16 00:36:57.352 [main] INFO  utils.ExcelReader - Reading data from Excel file: src/test/resources/testData/EventManagementTestData.xlsx, Sheet: ContactUsData
+2025-08-16 00:36:57.391 [main] INFO  utils.ExcelReader - Successfully read 2 row(s) of data from sheet: ContactUsData
+2025-08-16 00:36:57.392 [main] INFO  pages.ContactUsPage - Filling Contact Us form with data: {Email=, Message=, Subject=, Name=}
+2025-08-16 00:36:57.746 [main] INFO  stepDefinitions.FormSteps - Clicking the 'Send Message Now' button.
+2025-08-16 00:36:57.746 [main] INFO  pages.ContactUsPage - Clicking 'Send Message Now' button using JavaScript.
+2025-08-16 00:36:57.757 [main] INFO  stepDefinitions.FormSteps - Verifying required field validation messages using error divs in Contact Us form.
+2025-08-16 00:36:57.757 [main] INFO  pages.ContactUsPage - Checking validation errors...
+2025-08-16 00:36:57.828 [main] INFO  pages.ContactUsPage - Invalid fields found: [contact_name, contact_email, contact_subject, contact_message]
+2025-08-16 00:36:57.829 [main] DEBUG stepDefinitions.FormSteps - Invalid Contact Us fields: [contact_name, contact_email, contact_subject, contact_message]
+2025-08-16 00:36:57.829 [main] INFO  stepDefinitions.FormSteps - Validation messages detected for fields: [contact_name, contact_email, contact_subject, contact_message]
+2025-08-16 00:36:58.234 [main] INFO  BaseClass.libraryClass - Browser closed successfully.

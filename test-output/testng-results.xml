@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-16T02:12:52 IST" name="Default suite" finished-at="2025-08-16T02:13:32 IST" duration-ms="39987">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@399c4be1]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-08-16T02:12:52 IST" name="Default test" finished-at="2025-08-16T02:13:32 IST" duration-ms="39987">
+      <class name="runners.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TestRunner@399c4be1]" started-at="2025-08-16T02:12:52 IST" name="setUpClass" finished-at="2025-08-16T02:12:52 IST" duration-ms="449" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@f793f15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@399c4be1]" started-at="2025-08-16T02:12:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-16T02:13:02 IST" duration-ms="9344" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify successful booking with valid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Event Booking Form"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@399c4be1]" started-at="2025-08-16T02:13:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-16T02:13:08 IST" duration-ms="5835" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify email field validation with invalid format"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Event Booking Form"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Booking succeeded with invalid email. Validation is missing.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Booking succeeded with invalid email. Validation is missing.
+at org.testng.Assert.fail(Assert.java:111)
+at stepDefinitions.FormSteps.user_enters_invalid_email(FormSteps.java:66)
+at ✽.the user enters booking form data with an invalid email from "BookingData" and row 3(file:///C:/Users/Pavan/eclipse-workspace/EventManagement/src/test/resources/features/BookingForm.feature:15)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@399c4be1]" started-at="2025-08-16T02:13:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-16T02:13:13 IST" duration-ms="4945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify error on empty required fields"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Event Booking Form"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@399c4be1]" started-at="2025-08-16T02:13:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-16T02:13:18 IST" duration-ms="5578" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify phone number validation with invalid format"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Event Booking Form"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Booking succeeded with invalid phone number. Validation is missing.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Booking succeeded with invalid phone number. Validation is missing.
+at org.testng.Assert.fail(Assert.java:111)
+at stepDefinitions.FormSteps.user_enters_invalid_phone_number(FormSteps.java:162)
+at ✽.the user enters booking form data with an invalid phone number from "BookingData" and row 4(file:///C:/Users/Pavan/eclipse-workspace/EventManagement/src/test/resources/features/BookingForm.feature:27)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@399c4be1]" started-at="2025-08-16T02:13:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-16T02:13:26 IST" duration-ms="8156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify successful submission of the Contact Us form with valid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Contact Us Form"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@399c4be1]" started-at="2025-08-16T02:13:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-16T02:13:32 IST" duration-ms="5513" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify validation messages when submitting empty Contact Us form"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Contact Us Form"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunner@399c4be1]" started-at="2025-08-16T02:13:32 IST" name="tearDownClass" finished-at="2025-08-16T02:13:32 IST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

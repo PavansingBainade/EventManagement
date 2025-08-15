@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!--
+This TestNG suite file configures the test execution.
+It defines the test suite, the tests to be run, and execution parameters like parallelization.
+The 'parallel' attribute on the suite level can be set to 'tests', 'classes', or 'methods'.
+'thread-count' specifies the number of threads to use for parallel execution.
+-->
+<suite name="Event Management Automation Suite" parallel="tests" thread-count="2" verbose="1">
+    <listeners>
+        <!-- You can add TestNG listeners here if needed -->
+    </listeners>
+    <test name="Cucumber Scenarios">
+        <classes>
+            <!-- This points to the TestRunner class which integrates Cucumber with TestNG -->
+            <class name="runners.TestRunner"/>
+        </classes>
+    </test>
+</suite>
